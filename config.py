@@ -8,7 +8,7 @@ DB_HOST = "localhost"
 DB_USER = "app_user"
 DB_PASSWORD = "Sup3rSecretPassword!"
 
-# AWS's own published example access key (never a live credential) — used
-# here purely as a secret-scanner detection fixture.
-AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
-AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+# Fake, non-functional Stripe *test-mode* key (sk_test_...) — used purely as
+# a secret-scanner detection fixture. Not a live/production credential, and
+# not a real Stripe account.
+THIRD_PARTY_API_KEY = "sk_test_7fGH3kLmN9pQrS2tUvWxYz4ABcDeFgHi"
